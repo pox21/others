@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>game</title>
+
+  <link rel="stylesheet" href="main.css">
+
+  <script src="index.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="game-title">«Соедини пары»</h1>
+    <time class="time">00:00</time>
+    <form class="form" method="post">
+      <label class="label">
+        <input class="label__input" type="number" placeholder="четное число от 2 до 10">
+      </label>
+      <button class="btn" type="submit">Играть</button>
+    </form>
+    <ul class="cards" id="app"></ul>
+    <div class="substrate visually-hidden">
+      <button class="game-restart btn">Начать заново</button>
+    </div>
+    
+  </div>
+</body>
+</html>
