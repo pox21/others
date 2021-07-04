@@ -58,6 +58,10 @@ body {
   transition: color .3s ease;
 }
 
+.label__input::placeholder {
+  font-size: 14px;
+}
+
 .label__input:hover {
   color: brown;
 }
